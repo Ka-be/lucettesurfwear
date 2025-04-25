@@ -12,7 +12,7 @@ export default function Home() {
 	}, []);
 	
 	return (
-		<main className="flex flex-col items-center justify-center min-h-screen font-[family-name:var(--font-geist-sans)] relative overflow-hidden">
+		<main className="flex flex-col items-center justify-center min-h-screen max-h-[100dvh] max-w-[100dvw] font-[family-name:var(--font-geist-sans)] relative overflow-hidden">
 			{/* Vidéo d'arrière-plan */}
 			<div className="absolute inset-0 w-full h-full z-0">
 				<video 
